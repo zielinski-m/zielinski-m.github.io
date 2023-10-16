@@ -1,6 +1,6 @@
 $(document).ready(function() {
-    const apiRoot = 'https://task-web-application--michalzielins12.repl.co/';
-    const trelloApiRoot = 'https://task-web-application.michalzielins12.repl.co/v1/trello';
+    const apiRoot = 'https://task-web-application--michalzielins12.repl.co/v1/';
+    const trelloApiRoot = 'https://api.trello.com/1';
     const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
     const $tasksContainer = $('[data-tasks-container]');
 
